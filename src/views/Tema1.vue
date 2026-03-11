@@ -12,7 +12,7 @@
           img.img-a.img-t(src='@/assets/curso/temas/img1.png', alt='tema1')
         .col-lg-8.col-md-12.col-12.mb-4
           p.mb-4(data-aos="fade-left") El mercadeo o #[em marketing] involucra el cómo hacer coincidir el producto o marca de una empresa con lo que quiere el mercado o los consumidores para, de esta manera, generar ventas y rentabilidad. Esto quiere decir que, de acuerdo con el mercado, la empresa puede modificar el diseño del producto, estructurar precios, promociones, buscar canales para hacer llegar la marca a los clientes, comunicar todos los beneficios y atributos, además de llegar a nuevos consumidores. 
-          .cajon.color-acento-contenido.p-4.mb-4
+          .cajon.color-secundario.p-4.mb-4
             p.mb-0 De acuerdo con Kotler y Armstrong (2013, p. 35), el mercadeo es un “proceso mediante el cual las empresas crean valor para sus clientes y generan fuertes relaciones con ellos para, en reciprocidad, captar valor de los clientes”. Igualmente, Stanton et al, (2007, p. 9) manifiestan que el “concepto de #[em marketing] hace hincapié en la orientación al cliente y en la coordinación de las actividades de #[em marketing] para alcanzar los objetivos de desempeño de la organización”.
           p.mb-0(data-aos="fade-left") Por tanto, se puede decir que el mercadeo es una serie de procesos y actividades que busca conocer las necesidades de los consumidores para influir en sus gustos y deseos mediante técnicas y estrategias, ofreciendo bienes y servicios que le generen un valor agregado y le dejen una experiencia. 
 
@@ -111,16 +111,17 @@
           
           p.mb-4 Luego, la compañía debe, basada en la #[b estrategia de mercadeo,] combinar cuatro factores importantes para lograr el objetivo que se denominan #[b “mezcla de mercadeo”] (producto, fijación de precio, canales de distribución y promoción o comunicación). Con las actividades que surjan de esas combinaciones o mezclas la empresa debe adaptarse al entorno e influir en el mercado. 
       
-      .subt.mb-4(data-aos="fade-right")
-        .d-flex.align-items-center.mb-1
-          img.subi(src='@/assets/curso/temas/icono.svg', alt='')
-          h3.mb-0.ms-2 Productos, servicios y marcas
+      .row.align-items-center.mb-5.titulo-icono
+        .col-auto.titulo-icono-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-text.px-0.py-2  Productos, servicios y marcas
       
       p.mb-4(data-aos="fade-left") En este factor la empresa debe decidir lo que vende la empresa y el mercado en el que se encuentra, además, debe tener en cuenta que el producto que tenga éxito y sea innovador hoy puede convertirse en el #[em commodity] de mañana. Es por esto que se debe pensar en los productos actuales y en los potenciales. 
 
       .row.justify-content-center.align-items-end
         .col-lg-8.col-md-12.col-12
-          .cajon.color-acento-contenido.p-4.mb-5
+          .cajon.color-secundario.p-4.mb-5
             p.mb-0 Se debe tener en cuenta que, en mercadeo, el enfoque de producto debe centrarse en lo que el consumidor necesita y le cause experiencias significativas.
       
       .row.justify-content-center.align-items-end.mb-2
@@ -224,15 +225,17 @@
       .row.justify-content-center.align-items-center
         .col-lg-8.col-md-12.col-12.mb-4
           p.mb-4(data-aos="fade-right") Finalmente, es importante mencionar que los productos se clasifican en #[b productos de consumo y productos industriales.] Se catalogan de esa manera de acuerdo con el tipo de comprador, aunque el uso que se le dé al producto sea el mismo; por ejemplo, una bolsa de detergente es utilizada por una ama de casa para la limpieza (retirar la mugre), igual su uso en la industria se utilizaría para un proceso.
-          .cajon.color-acento-contenido.p-4.mb-4
+          .cajon.color-secundario.p-4.mb-4
             p.mb-0 En ese sentido, se precisa que los productos de consumo tienen un uso final, mientras que los productos industriales son utilizados para un proceso o para distribuirlo a otros clientes.
         .col-lg-4.col-md-7.col-7.mb-4
           img.img-a.img-t(src='@/assets/curso/temas/img9.png', alt='tema1')
 
-      .subt.mb-4(data-aos="fade-right")
-        .d-flex.align-items-center.mb-1
-          img.subi(src='@/assets/curso/temas/icono.svg', alt='')
-          h3.mb-0.ms-2 Fijación de precios
+       
+      .row.align-items-center.mb-5.titulo-icono
+        .col-auto.titulo-icono-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-text.px-0.py-2 Fijación de precios
 
       .row.justify-content-center.mb-5
         .col-lg-4.col-md-7.col-7.pe-lg-0.mb-lg-0.mb-4(data-aos="fade-left")
@@ -251,208 +254,210 @@
                 p.mb-0 La gran mayoría de productos tiene libertad de precios y estos se definen por acción de la oferta y la demanda, otros son controlados por el Gobierno, como los servicios de energía, agua, el transporte público o algunas drogas medicinales. 
 
       p.mb-4(data-aos="fade-left") Basado en lo anterior, se invita a revisar el siguiente recurso en el que se precisan aspectos relacionados con el precio:
-      
-      .tarjeta.tarjeta--gris1.p-4.mb-4
-        LineaTiempoC.color-acento-contenido
-          .row.justify-content-center.align-items-center.mb-4(titulo="Formas")
-            .col-lg-11
-              .row.justify-content-center
-                .col-lg-7.col-md-12.mb-4.mb-md-0
-                  h4.mb-4 Diferentes formas de precio
-                  p Cada servicio o producto tiene una manera de fijar el precio de su oferta, aquí algunos ejemplos:
-                .col-lg-5.col-md-12(alt="La tabla contiene dos columnas, la primera menciona algunos ejemplos de productos o servicios: Alquiler,  pensión, honorarios, pasaje, interés, sueldo, propina, prima, impuesto y comisión; y la segunda columna menciona las actividades en las cuales se pueden fijar los precios: apartamento, colegios, servicios profesionales, transporte, crédito, ejecutivo, mesero, seguro, gobierno, vendedor.")
-                  .titulo-sexto.color-secundario.mb-4
-                    h5 Tabla 1. 
-                    | Maneras para fijar un precio
-                  .row.justify-content-center(data-aos="zoom-in-left")
-                    .col-lg-12
-                      .tabla-a.tabla-peq
-                        table    
-                          tbody.white
-                            tr
-                              td.text-center.width30(data-aos="fade-left") #[b Alquiler]
-                              td.text-center.width70(data-aos="fade-right") Apartamento
-                            tr
-                              td.text-center.width30(data-aos="fade-left") #[b Pensión]
-                              td.text-center.width70(data-aos="fade-right") Colegios
-                            tr
-                              td.text-center.width30(data-aos="fade-left") #[b Honorarios]
-                              td.text-center.width70(data-aos="fade-right") Servicios profesionales
-                            tr
-                              td.text-center.width30(data-aos="fade-left") #[b Pasaje]
-                              td.text-center.width70(data-aos="fade-right") Transporte
-                            tr
-                              td.text-center.width30(data-aos="fade-left") #[b Interés]
-                              td.text-center.width70(data-aos="fade-right") Crédito
-                            tr
-                              td.text-center.width30(data-aos="fade-left") #[b Sueldo]
-                              td.text-center.width70(data-aos="fade-right") Ejecutivo
-                            tr
-                              td.text-center.width30(data-aos="fade-left") #[b Propina]
-                              td.text-center.width70(data-aos="fade-right") Mesero
-                            tr
-                              td.text-center.width30(data-aos="fade-left") #[b Prima]
-                              td.text-center.width70(data-aos="fade-right") Seguro
-                            tr
-                              td.text-center.width30(data-aos="fade-left") #[b Impuesto]
-                              td.text-center.width70(data-aos="fade-right") Gobierno
-                            tr
-                              td.text-center.width30(data-aos="fade-left") #[b Comisión]
-                              td.text-center.width70(data-aos="fade-right") Vendedor
-          .row.justify-content-center.align-items-center.mb-4(titulo="Penetración")
-            .col-lg-11
-              .row.justify-content-center
-                .col-lg-7.col-md-12.mb-4.mb-md-0(data-aos="fade-left")
-                  h4.mb-4 Precio de penetración
-                  p El precio de penetración busca captar a los clientes con un producto nuevo, generalmente de consumo masivo; que cuenta con un descuento elevado, la intención es llegar al mayor número de clientes, darse a conocer rápidamente para de manera paulatina ir subiendo el precio al nivel deseado. Con este tipo de precio se busca un volumen alto de venta para poder llegar al punto de equilibrio.
-                .col-lg-5.col-md-12
-                  .titulo-sexto.color-secundario.mb-4(data-aos="fade-right")
-                    h5 Figura 3.
-                    | Precio vs. cantidad
+      .bg-full-width.bg-color-1.mb-5
+        .p-full-width 
+          .tarjeta.bg-fondo-1.p-4
+            LineaTiempoC.color-acento-contenido
+              .row.justify-content-center.align-items-center.mb-4(titulo="Formas")
+                .col-lg-11
                   .row.justify-content-center
-                    .col-lg-12
-                      .white.p-4
-                        img.img-a.img-t(src='@/assets/curso/temas/img11.svg', alt='La grafica presenta la grafica de una línea recta sobre un plano cartesiano, que se crea con puntos donde la cantidad aumenta (eje X), y el precio disminuye (eje Y)')
-                      figcaption Nota. Tomada de Goñi (2008).
-          .row.justify-content-center.align-items-center.mb-4(titulo="Importancia")
-            .col-lg-11
-              .row.justify-content-center
-                .col-lg-7.col-md-12.mb-4.mb-md-0(data-aos="fade-left")
-                  h4.mb-4(data-aos="fade-right") Importancia del precio
-                  p.mb-4(data-aos="fade-left") El precio tiene un significado importante en el desarrollo económico de las empresas y las personas. Para la economía influye en todas las actividades que aportan al Producto Interno Bruto (PIB), para las empresas es el principal medio para lograr la rentabilidad propuesta. El precio debe ser lo suficientemente atractivo para que el cliente lo acepte, y debe generar suficiente dinero en ventas para pagar lo que costo desarrollar, producir y comercializar el producto, y debe generar una ganancia para la empresa (Karin Hartley & Rudellus 2014, p. 332).
-                  p.mb-4(data-aos="fade-right") El precio afecta la utilidad del negocio por cuanto si las ventas suben o bajan se van a reflejar en la operación del negocio para el pago de gastos, y los costos de la materia prima o mercancía que se necesita para la operación de la empresa.
-                .col-lg-5.col-md-12(data-aos="fade-left")
-                  .white.p-3
-                    h4.mb-4 Equivale a la siguiente fórmula
-                    p.mb-4 Las utilidades son iguales a los ingresos totales menos los costos totales, esto se puede representar así:
-                    .row.justify-content-center
-                      .col-lg-5.col-md-6
-                        p.mb-2 UT = IT - CT
-                        p.mb-2 UT: Utilidades totales
-                        p.mb-2 IT: Ingresos totales
-                        p.mb-2 CT: Costos totales
-                        p.mb-2 Donde IT = P.Q
-                        p.mb-2 P = Precio unitario
-                      .col-lg-7.col-md-6
-                        p.mb-2 Q = Cantidades vendidas
-                        p.mb-2 CT = CF + CV X Q
-                        p.mb-2 CT: Costos totales
-                        p.mb-2 CF: Costos fijos totales
-                        p.mb-2 CV: Costo variable
-                        p.mb-2 Q: Cantidades vendidas
-          .row.justify-content-center.align-items-center.mb-4(titulo="Indicaciones")
-            .col-lg-11
-              h4.mb-4(data-aos="fade-right") Indicaciones para la producción
-              p.mb-4(data-aos="fade-left") Pasos para la asignación de los precios:
-              .row.justify-content-center
-                .col-lg-7.col-md-12.mb-4.mb-md-0
-                  ol.lista-ol--cuadro.lista-ol--separador
-                    li.d-flex.mb-1
-                      .lista-ol--cuadro__vineta
-                        span 1
-                      p.mb-0 Determine los costos de producción, y gastos de administración y ventas, súmelos y divídalos entre la producción total para obtener el costo unitario.
-                    li.d-flex.mb-1
-                      .lista-ol--cuadro__vineta
-                        span 2
-                      p.mb-0 Elabore una relación de los precios de la competencia directa y productos similares.
-                    li.d-flex.mb-1
-                      .lista-ol--cuadro__vineta
-                        span 3
-                      p.mb-0 Realice un sondeo del mercado para determinar lo que valoran los clientes de su producto.
-                    li.d-flex.mb-1
-                      .lista-ol--cuadro__vineta
-                        span 4
-                      p.mb-0 Realice un análisis de su capacidad de producción al 90% para estimar la cantidad máxima de vender y posibilidad de competir.
-                    li.d-flex.mb-1
-                      .lista-ol--cuadro__vineta
-                        span 5
-                      p.mb-0 Si ya completó los cuatro puntos anteriores es momento que le coloque el precio al producto.
-                .col-lg-5.col-md-12
-                  img.img-a.img-t(src='@/assets/curso/temas/img12.svg', alt='')
-          .row.justify-content-center.align-items-center.mb-4(titulo="Estrategia")
-            .col-lg-11(data-aos="fade-left")
-              h4.mb-4 Estrategias de precios
-              .row.justify-content-center
-                .col-lg-7.col-md-12.mb-4.mb-md-0
-                  p.mb-4 A lo largo del ciclo de vida del producto y desde el lanzamiento de este al mercado, la empresa adopta diferentes maneras de comunicarse con los clientes a través de los precios. Los precios son una herramienta muy importante de relacionarse con los clientes sin perder el objetivo final de la empresa, Goñi (2008) manifiesta al respecto,
-                  .bloque-texto-b.color-secundario.p-4.mb-4
-                    .bloque-texto-b__texto.ps-3
-                      i.fas.fa-quote-left
-                      h4.mb-0 (…) cuando un producto está en la etapa de introducción se iniciará con un precio, el cual variará conforme se haga más conocido, haya más competidores o dependiendo de la importancia social de este, como es el caso de las medicinas.
-                      i.fas.fa-quote-right
-                .col-lg-5.col-md-12(data-aos="fade-right")
-                  .white.p-4
-                    p.mb-4 Las estrategias que más se utilizan en la empresa para fijar precios, teniendo en cuenta el ciclo de vida de producto o servicio son:
-                    ul.lista-ul
-                      li.d-flex.mb-2
-                        i.fas.fa-circle-check
-                        p.mb-0 Precio de desnatado
-                      li.d-flex.mb-2
-                        i.fas.fa-circle-check
-                        p.mb-0 Precio de penetración
-                      li.d-flex.mb-2
-                        i.fas.fa-circle-check
-                        p.mb-0 Precio de #[em statu quo]
-          .row.justify-content-center.align-items-center.mb-4(titulo="Desnatado")
-            .col-lg-11
-              .row.justify-content-center
-                .col-lg-7.col-md-12.mb-4.mb-md-0
-                  h4.mb-4 Precio de desnatado
-                  p Generalmente se aplica en el lanzamiento de un producto, se establece un precio muy alto al principio para maximizar la ganancia vendiendo el producto a un segmento que esté dispuesto a pagar ese precio, luego el precio lentamente disminuye con el tiempo para maximizar la ganancia vendiendo el producto a otro grupo de consumidores que son más sensibles al precio, es decir a aquellos clientes que al precio inicial no podían pagarlo. Este tipo de producto debe tener unas características o beneficios únicos no encontrados en otro producto que son percibidas por el mercado.
-                .col-lg-5.col-md-12
-                  .titulo-sexto.color-secundario.mb-4
-                    h5 Figura 4.
-                    | Precio de desnatado
+                    .col-lg-7.col-md-12.mb-4.mb-md-0
+                      h4.mb-4 Diferentes formas de precio
+                      p Cada servicio o producto tiene una manera de fijar el precio de su oferta, aquí algunos ejemplos:
+                    .col-lg-5.col-md-12(alt="La tabla contiene dos columnas, la primera menciona algunos ejemplos de productos o servicios: Alquiler,  pensión, honorarios, pasaje, interés, sueldo, propina, prima, impuesto y comisión; y la segunda columna menciona las actividades en las cuales se pueden fijar los precios: apartamento, colegios, servicios profesionales, transporte, crédito, ejecutivo, mesero, seguro, gobierno, vendedor.")
+                      .titulo-sexto.color-secundario.mb-4
+                        h5 Tabla 1. 
+                        | Maneras para fijar un precio
+                      .row.justify-content-center(data-aos="zoom-in-left")
+                        .col-lg-12
+                          .tabla-a.tabla-peq
+                            table    
+                              tbody
+                                tr
+                                  td.text-center.width30(data-aos="fade-left") #[b Alquiler]
+                                  td.text-center.width70(data-aos="fade-right") Apartamento
+                                tr
+                                  td.text-center.width30(data-aos="fade-left") #[b Pensión]
+                                  td.text-center.width70(data-aos="fade-right") Colegios
+                                tr
+                                  td.text-center.width30(data-aos="fade-left") #[b Honorarios]
+                                  td.text-center.width70(data-aos="fade-right") Servicios profesionales
+                                tr
+                                  td.text-center.width30(data-aos="fade-left") #[b Pasaje]
+                                  td.text-center.width70(data-aos="fade-right") Transporte
+                                tr
+                                  td.text-center.width30(data-aos="fade-left") #[b Interés]
+                                  td.text-center.width70(data-aos="fade-right") Crédito
+                                tr
+                                  td.text-center.width30(data-aos="fade-left") #[b Sueldo]
+                                  td.text-center.width70(data-aos="fade-right") Ejecutivo
+                                tr
+                                  td.text-center.width30(data-aos="fade-left") #[b Propina]
+                                  td.text-center.width70(data-aos="fade-right") Mesero
+                                tr
+                                  td.text-center.width30(data-aos="fade-left") #[b Prima]
+                                  td.text-center.width70(data-aos="fade-right") Seguro
+                                tr
+                                  td.text-center.width30(data-aos="fade-left") #[b Impuesto]
+                                  td.text-center.width70(data-aos="fade-right") Gobierno
+                                tr
+                                  td.text-center.width30(data-aos="fade-left") #[b Comisión]
+                                  td.text-center.width70(data-aos="fade-right") Vendedor
+              .row.justify-content-center.align-items-center.mb-4(titulo="Penetración")
+                .col-lg-11
                   .row.justify-content-center
-                    .col-lg-12
-                      .white.p-4
-                        img.img-a.img-t(src='@/assets/curso/temas/img13.svg', alt='La grafica presenta la grafica de una línea recta sobre un plano cartesiano, que se crea con puntos donde la cantidad aumenta(eje X), y el precio disminuye(eje Y), ademas se señalan puntos de precio inicial y precio final.')
-                      figcaption Nota. Tomada de Goñi (2008).
-          .row.justify-content-center.align-items-center.mb-4(titulo="<em>Statu quo</em>")
-            .col-lg-11
-              h4.mb-4 Precio de #[em statu quo]
-              .row.justify-content-center
-                .col-lg-7.col-md-12.mb-4.mb-md-0
-                  p Para fijar el precio de #[em statu quo], por lo general, es un producto que ya tiene presencia en el mercado, por lo que la empresa realiza un chequeo de precios que le permite ver el comportamiento de la competencia y sigue al precio más alto, sin superar a este.
-                .col-lg-5.col-md-12
-                  img.img-a.img-t(src='@/assets/curso/temas/img14.svg', alt='')
-          .row.justify-content-center.align-items-center.mb-4(titulo="Otras prácticas")
-            .col-lg-11
-              h4.mb-4 Otras tácticas que acompañan al precio
-              .row.justify-content-center(data-aos="fade-right")
-                .col-lg-7.col-md-12.mb-4.mb-md-0
-                  p.mb-4(data-aos="fade-right") A lo largo del ciclo de vida del producto, la empresa puede manejar situaciones alrededor del precio para mantener a la cliente que se sientan satisfechos. Hay varias maneras que según Goñi (2008) se puede utilizar, entre ellas:
-                  ul.lista-ul(data-aos="fade-left")
-                    li.d-flex.mb-2
-                      i.fas.fa-circle-check
-                      p.mb-0 Descuento por volumen.
-                    li.d-flex.mb-2
-                      i.fas.fa-circle-check
-                      p.mb-0 Descuentos estacionales.
-                    li.d-flex.mb-2
-                      i.fas.fa-circle-check
-                      p.mb-0 Descuentos por pago de contado.
-                    li.d-flex.mb-2
-                      i.fas.fa-circle-check
-                      p.mb-0 Descuento comercial.
-                    li.d-flex.mb-2
-                      i.fas.fa-circle-check
-                      p.mb-0 Descuento temporal.
-                    li.d-flex.mb-2
-                      i.fas.fa-circle-check
-                      p.mb-0 Descuento por cupones.
-                .col-lg-5.col-md-12
-                  img.img-a.img-t(src='@/assets/curso/temas/img15.svg', alt='')
+                    .col-lg-7.col-md-12.mb-4.mb-md-0(data-aos="fade-left")
+                      h4.mb-4 Precio de penetración
+                      p El precio de penetración busca captar a los clientes con un producto nuevo, generalmente de consumo masivo; que cuenta con un descuento elevado, la intención es llegar al mayor número de clientes, darse a conocer rápidamente para de manera paulatina ir subiendo el precio al nivel deseado. Con este tipo de precio se busca un volumen alto de venta para poder llegar al punto de equilibrio.
+                    .col-lg-5.col-md-12
+                      .titulo-sexto.color-secundario.mb-4(data-aos="fade-right")
+                        h5 Figura 3.
+                        | Precio vs. cantidad
+                      .row.justify-content-center
+                        .col-lg-12
+                          .p-4
+                            img.img-a.img-t(src='@/assets/curso/temas/img11.svg', alt='La grafica presenta la grafica de una línea recta sobre un plano cartesiano, que se crea con puntos donde la cantidad aumenta (eje X), y el precio disminuye (eje Y)')
+                          figcaption Nota. Tomada de Goñi (2008).
+              .row.justify-content-center.align-items-center.mb-4(titulo="Importancia")
+                .col-lg-11
+                  .row.justify-content-center
+                    .col-lg-7.col-md-12.mb-4.mb-md-0(data-aos="fade-left")
+                      h4.mb-4(data-aos="fade-right") Importancia del precio
+                      p.mb-4(data-aos="fade-left") El precio tiene un significado importante en el desarrollo económico de las empresas y las personas. Para la economía influye en todas las actividades que aportan al Producto Interno Bruto (PIB), para las empresas es el principal medio para lograr la rentabilidad propuesta. El precio debe ser lo suficientemente atractivo para que el cliente lo acepte, y debe generar suficiente dinero en ventas para pagar lo que costo desarrollar, producir y comercializar el producto, y debe generar una ganancia para la empresa (Karin Hartley & Rudellus 2014, p. 332).
+                      p.mb-4(data-aos="fade-right") El precio afecta la utilidad del negocio por cuanto si las ventas suben o bajan se van a reflejar en la operación del negocio para el pago de gastos, y los costos de la materia prima o mercancía que se necesita para la operación de la empresa.
+                    .col-lg-5.col-md-12(data-aos="fade-left")
+                      .p-3.bg-color-2
+                        h4.mb-4 Equivale a la siguiente fórmula
+                        p.mb-4 Las utilidades son iguales a los ingresos totales menos los costos totales, esto se puede representar así:
+                        .row.justify-content-center
+                          .col-lg-5.col-md-6
+                            p.mb-2 UT = IT - CT
+                            p.mb-2 UT: Utilidades totales
+                            p.mb-2 IT: Ingresos totales
+                            p.mb-2 CT: Costos totales
+                            p.mb-2 Donde IT = P.Q
+                            p.mb-2 P = Precio unitario
+                          .col-lg-7.col-md-6
+                            p.mb-2 Q = Cantidades vendidas
+                            p.mb-2 CT = CF + CV X Q
+                            p.mb-2 CT: Costos totales
+                            p.mb-2 CF: Costos fijos totales
+                            p.mb-2 CV: Costo variable
+                            p.mb-2 Q: Cantidades vendidas
+              .row.justify-content-center.align-items-center.mb-4(titulo="Indicaciones")
+                .col-lg-11
+                  h4.mb-4(data-aos="fade-right") Indicaciones para la producción
+                  p.mb-4(data-aos="fade-left") Pasos para la asignación de los precios:
+                  .row.justify-content-center
+                    .col-lg-7.col-md-12.mb-4.mb-md-0
+                      ol.lista-ol--cuadro.lista-ol--separador
+                        li.d-flex.mb-1
+                          .lista-ol--cuadro__vineta
+                            span 1
+                          p.mb-0 Determine los costos de producción, y gastos de administración y ventas, súmelos y divídalos entre la producción total para obtener el costo unitario.
+                        li.d-flex.mb-1
+                          .lista-ol--cuadro__vineta
+                            span 2
+                          p.mb-0 Elabore una relación de los precios de la competencia directa y productos similares.
+                        li.d-flex.mb-1
+                          .lista-ol--cuadro__vineta
+                            span 3
+                          p.mb-0 Realice un sondeo del mercado para determinar lo que valoran los clientes de su producto.
+                        li.d-flex.mb-1
+                          .lista-ol--cuadro__vineta
+                            span 4
+                          p.mb-0 Realice un análisis de su capacidad de producción al 90% para estimar la cantidad máxima de vender y posibilidad de competir.
+                        li.d-flex.mb-1
+                          .lista-ol--cuadro__vineta
+                            span 5
+                          p.mb-0 Si ya completó los cuatro puntos anteriores es momento que le coloque el precio al producto.
+                    .col-lg-5.col-md-12
+                      img.img-a.img-t(src='@/assets/curso/temas/img12.svg', alt='')
+              .row.justify-content-center.align-items-center.mb-4(titulo="Estrategia")
+                .col-lg-11(data-aos="fade-left")
+                  h4.mb-4 Estrategias de precios
+                  .row.justify-content-center
+                    .col-lg-7.col-md-12.mb-4.mb-md-0
+                      p.mb-4 A lo largo del ciclo de vida del producto y desde el lanzamiento de este al mercado, la empresa adopta diferentes maneras de comunicarse con los clientes a través de los precios. Los precios son una herramienta muy importante de relacionarse con los clientes sin perder el objetivo final de la empresa, Goñi (2008) manifiesta al respecto,
+                      .bloque-texto-b.color-secundario.p-4.mb-4
+                        .bloque-texto-b__texto.ps-3
+                          i.fas.fa-quote-left
+                          p.mb-0 (…) cuando un producto está en la etapa de introducción se iniciará con un precio, el cual variará conforme se haga más conocido, haya más competidores o dependiendo de la importancia social de este, como es el caso de las medicinas.
+                          i.fas.fa-quote-right
+                    .col-lg-5.col-md-12(data-aos="fade-right")
+                      .p-4
+                        p.mb-4 Las estrategias que más se utilizan en la empresa para fijar precios, teniendo en cuenta el ciclo de vida de producto o servicio son:
+                        ul.lista-ul
+                          li.d-flex.mb-2
+                            i.fas.fa-circle-check
+                            p.mb-0 Precio de desnatado
+                          li.d-flex.mb-2
+                            i.fas.fa-circle-check
+                            p.mb-0 Precio de penetración
+                          li.d-flex.mb-2
+                            i.fas.fa-circle-check
+                            p.mb-0 Precio de #[em statu quo]
+              .row.justify-content-center.align-items-center.mb-4(titulo="Desnatado")
+                .col-lg-11
+                  .row.justify-content-center
+                    .col-lg-7.col-md-12.mb-4.mb-md-0
+                      h4.mb-4 Precio de desnatado
+                      p Generalmente se aplica en el lanzamiento de un producto, se establece un precio muy alto al principio para maximizar la ganancia vendiendo el producto a un segmento que esté dispuesto a pagar ese precio, luego el precio lentamente disminuye con el tiempo para maximizar la ganancia vendiendo el producto a otro grupo de consumidores que son más sensibles al precio, es decir a aquellos clientes que al precio inicial no podían pagarlo. Este tipo de producto debe tener unas características o beneficios únicos no encontrados en otro producto que son percibidas por el mercado.
+                    .col-lg-5.col-md-12
+                      .titulo-sexto.color-secundario.mb-4
+                        h5 Figura 4.
+                        | Precio de desnatado
+                      .row.justify-content-center
+                        .col-lg-12
+                          .bg-color-2.p-4
+                            img.img-a.img-t(src='@/assets/curso/temas/img13.svg', alt='La grafica presenta la grafica de una línea recta sobre un plano cartesiano, que se crea con puntos donde la cantidad aumenta(eje X), y el precio disminuye(eje Y), ademas se señalan puntos de precio inicial y precio final.')
+                          figcaption Nota. Tomada de Goñi (2008).
+              .row.justify-content-center.align-items-center.mb-4(titulo="<em>Statu quo</em>")
+                .col-lg-11
+                  h4.mb-4 Precio de #[em statu quo]
+                  .row.justify-content-center
+                    .col-lg-7.col-md-12.mb-4.mb-md-0
+                      p Para fijar el precio de #[em statu quo], por lo general, es un producto que ya tiene presencia en el mercado, por lo que la empresa realiza un chequeo de precios que le permite ver el comportamiento de la competencia y sigue al precio más alto, sin superar a este.
+                    .col-lg-5.col-md-12
+                      img.img-a.img-t(src='@/assets/curso/temas/img14.svg', alt='')
+              .row.justify-content-center.align-items-center.mb-4(titulo="Otras prácticas")
+                .col-lg-11
+                  h4.mb-4 Otras tácticas que acompañan al precio
+                  .row.justify-content-center(data-aos="fade-right")
+                    .col-lg-7.col-md-12.mb-4.mb-md-0
+                      p.mb-4(data-aos="fade-right") A lo largo del ciclo de vida del producto, la empresa puede manejar situaciones alrededor del precio para mantener a la cliente que se sientan satisfechos. Hay varias maneras que según Goñi (2008) se puede utilizar, entre ellas:
+                      ul.lista-ul(data-aos="fade-left")
+                        li.d-flex.mb-2
+                          i.fas.fa-circle-check
+                          p.mb-0 Descuento por volumen.
+                        li.d-flex.mb-2
+                          i.fas.fa-circle-check
+                          p.mb-0 Descuentos estacionales.
+                        li.d-flex.mb-2
+                          i.fas.fa-circle-check
+                          p.mb-0 Descuentos por pago de contado.
+                        li.d-flex.mb-2
+                          i.fas.fa-circle-check
+                          p.mb-0 Descuento comercial.
+                        li.d-flex.mb-2
+                          i.fas.fa-circle-check
+                          p.mb-0 Descuento temporal.
+                        li.d-flex.mb-2
+                          i.fas.fa-circle-check
+                          p.mb-0 Descuento por cupones.
+                    .col-lg-5.col-md-12
+                      img.img-a.img-t(src='@/assets/curso/temas/img15.svg', alt='')
 
-      .subt.mb-4(data-aos="fade-right")
-        .d-flex.align-items-center.mb-1
-          img.subi(src='@/assets/curso/temas/icono.svg', alt='')
-          h3.mb-0.ms-2 Canales de distribución
+      .row.align-items-center.mb-5.titulo-icono
+        .col-auto.titulo-icono-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-text.px-0.py-2 Canales de distribución
 
       .row.justify-content-center.align-items-center.mb-2
         .col-lg-8.col-md-12.col-12.mb-4
           p.mb-4(data-aos="fade-left") Imaginarse una fábrica entregando todos los productos que vende directamente a los compradores, sobre todo los productos de consumo masivo como alimentos, productos de aseo entre otros, sin barreras geográficas, resultaría casi imposible. El papel de los intermediarios del canal de distribución consiste en transformar los volúmenes de bienes que fabrican los productores en pequeñas cantidades que a los consumidores les es más fácil adquirir. Por tanto, la función de llevar los productos desde el lugar de producción hasta el cliente final se conoce como distribución.
-          .cajon.color-acento-contenido.p-5.mb-4
+          .cajon.color-secundario.p-5.mb-4
             p.mb-0 La distribución se encarga de llevar los productos hasta el consumidor final o los usuarios de negocios.
         .col-lg-4.col-md-7.col-7.mb-4
           img.img-a.img-t(src='@/assets/curso/temas/img16.png', alt='tema1')
@@ -485,8 +490,8 @@
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    h4.mb-3.text-white #[b Canales de distribución]
-                    p.mb-2.text-white Consulte el siguiente video, que describe brevemente los componentes y actores dentro del proceso de distribución.
+                    h4.mb-3.text-bg-color-2.text-white #[b Canales de distribución]
+                    p.mb-2.text-bg-color-2.text-white Consulte el siguiente video, que describe brevemente los componentes y actores dentro del proceso de distribución.
                   .col-lg-auto.pe-lg-5
                     a.boton.color-acento-botones(href="https://youtu.be/WJF5aB-LPA8" target="_blank")
                       span Ir al sitio
@@ -545,7 +550,7 @@
         .col-lg-11
           .row.justify-content-center.align-items-center
             .col-lg-9(data-aos="fade-right")
-              .bg6.p-5
+              .bg6.p-5.br-10
                 .row.justify-content-center
                   .col-lg-6.col-md-6(data-aos="fade-left")
                     ul.lista-ul
@@ -586,26 +591,25 @@
       
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-12
-          .bg7.p-4
             ImagenInfografica.color-acento-contenido(data-aos="fade-right")
               template(v-slot:imagen)
                 figure
                   img(src='@/assets/curso/temas/img23.png', alt='')
               .tarjeta.color-acento-con.p-4(x="60.4%" y="51%" numero="") 
-                h3.mb-4.text-white Flujo de propiedad
-                p.text-white Refleja cómo se transmite el título de propiedad de los bienes que son distribuidos; su sentido es descendente, ya que va desde el productor hasta los usuarios finales; no obstante, en algunos casos se transmite el uso del bien, pero no su propiedad, como sería el caso de la reserva de una habitación de hotel.
+                h3.mb-4.text-bg-color-2 Flujo de propiedad
+                p.text-bg-color-2 Refleja cómo se transmite el título de propiedad de los bienes que son distribuidos; su sentido es descendente, ya que va desde el productor hasta los usuarios finales; no obstante, en algunos casos se transmite el uso del bien, pero no su propiedad, como sería el caso de la reserva de una habitación de hotel.
               .tarjeta.color-acento-con.p-4(x="87.6%" y="21%" numero="") 
-                h3.mb-4.text-white Flujo de pagos
-                p.text-white Derivado de las transacciones ocasionadas por los flujos anteriores, incluye los pagos y las comisiones por la compra del producto y la realización de las funciones de los intermediarios dentro del canal de distribución.
+                h3.mb-4.text-bg-color-2 Flujo de pagos
+                p.text-bg-color-2 Derivado de las transacciones ocasionadas por los flujos anteriores, incluye los pagos y las comisiones por la compra del producto y la realización de las funciones de los intermediarios dentro del canal de distribución.
               .tarjeta.color-acento-con.p-4(x="72.8%" y="10.4%" numero="") 
-                h3.mb-4.text-white Flujo de Información
-                p.text-white Refleja la información que circula dentro del canal. Los intermediarios facilitan la comunicación en ambos sentidos, eliminando el desconocimiento que supone la distancia geográfica entre fabricantes y consumidores.
+                h3.mb-4.text-bg-color-2 Flujo de Información
+                p.text-bg-color-2 Refleja la información que circula dentro del canal. Los intermediarios facilitan la comunicación en ambos sentidos, eliminando el desconocimiento que supone la distancia geográfica entre fabricantes y consumidores.
               .tarjeta.color-acento-con.p-4(x="91.5%" y="60.5%" numero="") 
-                h3.mb-4.text-white Flujo de Promoción
-                p.text-white Los consumidores finales realizan sus pedidos a los intermediarios y éstos a su vez a los fabricantes.
+                h3.mb-4.text-bg-color-2 Flujo de Promoción
+                p.text-bg-color-2 Los consumidores finales realizan sus pedidos a los intermediarios y éstos a su vez a los fabricantes.
               .tarjeta.color-acento-con.p-4(x="53.4%" y="19.5%" numero="") 
-                h3.mb-4.text-white Flujo físico
-                p.text-white Describe los desplazamientos reales del producto desde el productor hasta el consumidor final, pasando por los sucesivos intermediarios.
+                h3.mb-4.text-bg-color-2 Flujo físico
+                p.text-bg-color-2 Describe los desplazamientos reales del producto desde el productor hasta el consumidor final, pasando por los sucesivos intermediarios.
       
       .sub.mb-4(data-aos="fade-right")
         .d-flex.align-items-center.mb-1
@@ -688,7 +692,7 @@
         .col-lg-11
           .row.justify-content-center.align-items-center
             .col-lg-9(data-aos="fade-left")
-              .bg6.p-5
+              .bg-color-2.p-5
                 ul.lista-ul.pe-lg-5
                   li.d-flex.mb-2
                     i.fas.fa-circle-check
@@ -769,7 +773,7 @@
         .col-lg-8.col-md-12.col-12.mb-4
           p.mb-4(data-aos="fade-left") Son coeficientes que miden el desempeño de un canal, además de ser herramientas que se obtienen del resultado de una razón entre dos o más cifras o variables que dan una interpretación de lo que ha sucedido en un periodo de tiempo determinado, para proyectar la gestión de la empresa en el futuro. 
           p.mb-4(data-aos="fade-right") Los siguientes son los indicadores para medir los canales de distribución:
-          .bg6.p-4(data-aos="fade-right")
+          .bg-color-2.p-4
             ul.lista-ul
               li.d-flex.mb-1
                 i.fas.fa-circle-check
@@ -789,10 +793,11 @@
         .col-lg-4.col-md-7.col-7.mb-5
           img(src='@/assets/curso/temas/img34.png', alt='tema1')
 
-      .subt.mb-4(data-aos="fade-right")
-        .d-flex.align-items-center.mb-1
-          img.subi(src='@/assets/curso/temas/icono.svg', alt='')
-          h3.mb-0.ms-2 Ventas al por mayor y por menor
+      .row.align-items-center.mb-5.titulo-icono
+        .col-auto.titulo-icono-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-text.px-0.py-2 Ventas al por mayor y por menor
       
       .sub.mb-4(data-aos="fade-right")
         .d-flex.align-items-center.mb-1
@@ -848,7 +853,7 @@
           .row.justify-content-center.align-items-center.mb-2
             .col-lg-8.col-md-12.col-12.mb-4
               p.mb-4 Todas las actividades que intervienen en la venta de bienes o servicios directamente a los consumidores finales, para su uso personal y no comercial. La distribución minorista, se caracteriza por ser negocios pequeños, generalmente de origen familiar, se basa en la venta al menudeo o detallista, y es la empresa comercial o persona en régimen simplificado que vende productos al consumidor final. Se le llama minorista porque sus ventas se originan de la venta al menudeo. 
-              .bg8.p-4
+              .white.p-4
                 h4.mb-3 Tipos de minoristas
                 p.mb-4 Los negocios de ventas al detalle son variados en tipos y tamaño, una droguería, una tienda de barrio, ferretería, hasta un salón de belleza, restaurante, hasta las cadenas de supermercado y tiendas de descuento duro. Son:
                 .row.justify-content-center
@@ -899,10 +904,11 @@
             .col-lg-4.col-md-7.col-7.mb-4
               img(src='@/assets/curso/temas/img36.png', alt='tema1')
       
-      .subt.mb-4(data-aos="fade-right")
-        .d-flex.align-items-center.mb-1
-          img.subi(src='@/assets/curso/temas/icono.svg', alt='')
-          h3.mb-0.ms-2 Comunicación 
+      .row.align-items-center.mb-5.titulo-icono
+        .col-auto.titulo-icono-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-text.px-0.py-2 Comunicación 
 
       p.mb-4(data-aos="fade-left") Después de desarrollar un producto, fijarle un precio según el ciclo de vida de este, estructurar el canal de distribución accesible a un mercado objetivo, la comunicación con ese mercado objetivo es de vital importancia. Pero, ¿qué es la comunicación? De acuerdo con Kerin, Hartley y Rudelius (2014, p. 450), la comunicación es el proceso de transmitir un mensaje a otros y requiere seis elementos: fuente o emisor, mensaje, canal de comunicación, receptor y procesos de codificación y decodificación. 
       
@@ -946,8 +952,8 @@
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    h4.mb-3.text-white #[b Comunicaciones integrales de #[em marketing]]
-                    p.mb-2.text-white Consulte el siguiente video, que describe brevemente las comunicaciones integrales de #[em marketing.]
+                    h4.mb-3.text-bg-color-2.text-white #[b Comunicaciones integrales de #[em marketing]]
+                    p.mb-2.text-bg-color-2.text-white Consulte el siguiente video, que describe brevemente las comunicaciones integrales de #[em marketing.]
                   .col-lg-auto.pe-lg-5
                     a.boton.color-acento-botones(href="https://youtu.be/BA9xL5-2-Vc" target="_blank")
                       span Ir al sitio
