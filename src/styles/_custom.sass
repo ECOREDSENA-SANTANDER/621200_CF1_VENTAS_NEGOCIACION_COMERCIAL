@@ -379,7 +379,14 @@ figcaption, table caption
 
 .pasos-a.color-acento-contenido .pasos-a__circle div 
     color: #fff
-
+.pasos-a.color-primario .pasos-a__circle
+  background-color: #445130
+.pasos-a.color-primario .pasos-a__numero::after
+    border-left-color:#445130
+.pasos-a.color-primario .pasos-a__linea .hor-line
+    border-top-color: #445130
+.pasos-a.color-primario .pasos-a__linea__esquina__linea
+  border-color: #445130
 .left
   text-align: left
 
@@ -395,19 +402,20 @@ figcaption, table caption
 
 
 .bg77
-  background-color: #E5EFD6 !important 
+  background-color: #C2F4F8 !important 
   border-radius: 10px
 
 .tabs-a.color-primario .tabs-a__tab__selected 
-    background-color: #F9CE24 !important
+    background-color: #AACA79 !important
     color: black
 
 .tabs-a.color-primario .tabs-a__tab__selected:before 
-    background-color: #F9CE24 !important
+    background-color: #AACA79 !important
 
 .tabs-a__tab:last-child 
     margin-bottom: 0 !important
-    background-color: #445130!important
+    background-color: #36DBE6 !important
+    color: $color-sistema-texto !important
 
 
 
@@ -445,7 +453,7 @@ figcaption, table caption
 .bloque-texto-f__comillas i 
     position: absolute
     font-size: 2.5em
-    color: $color-secundario
+    color: $color-primario
 
 
 .tarjeta.color

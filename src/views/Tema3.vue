@@ -13,7 +13,7 @@
           .col-lg-5.sobr.d-none.d-lg-block
             img(src="@/assets/curso/temas/img55.svg", alt="alt").img250
           .col-lg-8
-            .bg6.p-5
+            .bg-color-2.p-5
               p.mb-0.ps-lg-5 Este punto se refiere a la segmentación de mercados de consumo, la manera de hacerlo es variada, dependiendo mucho del criterio de la empresa. La empresa combina una serie de variables buscando la mejor manera de tener una estructura del mercado a atender. 
           
     .row.justify-content-center.align-items-center
@@ -45,7 +45,7 @@
     
         .row.justify-content-center
           .col-lg-11
-            PasosA.color-acento-contenido.mb-0(tipo="n")
+            PasosA.color-primario.mb-0(tipo="n")
               .row
                 .col-lg
                   h4 Geográfica
@@ -151,17 +151,17 @@
               figure
                 img(src='@/assets/curso/temas/img61.svg', alt='')
             .tarjeta.color-acento-con.p-4(x="42%" y="1.3%" numero="") 
-              h4.mb-4.text-white Mercadeo no diferenciado
-              p.mb-0.text-white Mismo producto a todos los consumidores (sin segmentación). La empresa decide llegar con su oferta a todo el mercado, porque la oferta es común a satisfacer las necesidades de todos. Es de resaltar que es fácil que la competencia llegue con un producto diferenciado y lo desplace del mercado.
+              h4.mb-4 Mercadeo no diferenciado
+              p.mb-0 Mismo producto a todos los consumidores (sin segmentación). La empresa decide llegar con su oferta a todo el mercado, porque la oferta es común a satisfacer las necesidades de todos. Es de resaltar que es fácil que la competencia llegue con un producto diferenciado y lo desplace del mercado.
             .tarjeta.color-acento-con.p-4(x="38%" y="24%" numero="") 
-              h4.mb-4.text-white Mercadeo diferenciado
-              p.mb-0.text-white Diferentes productos para uno o más segmentos (cierta segmentación). La empresa toma la decisión de ofrecer a varios segmentos con una oferta diferente para cada uno.
+              h4.mb-4 Mercadeo diferenciado
+              p.mb-0 Diferentes productos para uno o más segmentos (cierta segmentación). La empresa toma la decisión de ofrecer a varios segmentos con una oferta diferente para cada uno.
             .tarjeta.color-acento-con.p-4(x="38%" y="59%" numero="") 
-              h4.mb-4.text-white Mercadeo de nicho o concentrado
-              p.mb-0.text-white Consiste en desarrollar dentro de un segmento o varios segmentos uno o varios grupos de clientes. Los esfuerzos se dirigen a uno o pocos segmentos en los que se posea una ventaja comparativa. Ejemplo: una empresa de crema dentales tiene un segmento de estas para adultos y en ese mismo segmento ofrece una crema dental sensitiva para adultos.
+              h4.mb-4 Mercadeo de nicho o concentrado
+              p.mb-0 Consiste en desarrollar dentro de un segmento o varios segmentos uno o varios grupos de clientes. Los esfuerzos se dirigen a uno o pocos segmentos en los que se posea una ventaja comparativa. Ejemplo: una empresa de crema dentales tiene un segmento de estas para adultos y en ese mismo segmento ofrece una crema dental sensitiva para adultos.
             .tarjeta.color-acento-con.p-4(x="27%" y="86%" numero="") 
-              h4.mb-4.text-white Micro mercados
-              p.mb-0.text-white Esta estrategia consiste en personalizar los productos y servicios según los segmentos, hábitos y preferencias de los consumidores. Todo el esfuerzo de mercadeo de la empresa se dirige a ese micronicho.
+              h4.mb-4 Micro mercados
+              p.mb-0 Esta estrategia consiste en personalizar los productos y servicios según los segmentos, hábitos y preferencias de los consumidores. Todo el esfuerzo de mercadeo de la empresa se dirige a ese micronicho.
 
     separador
     #t_3_4.titulo-segundo.mb-4
@@ -175,7 +175,7 @@
     
         .row.justify-content-center
           .col-lg-11
-            PasosA.color-acento-contenido.mb-0(tipo="n")
+            PasosA.color-primario.mb-0(tipo="n")
               .row
                 .col-lg
                   h4 Investigar el mercado
