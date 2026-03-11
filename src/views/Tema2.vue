@@ -9,7 +9,7 @@
     
     .row.justify-content-center.align-items-center
       .col-lg-10
-        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/img39.png')})`}"
           )
@@ -23,70 +23,70 @@
     
     .row.justify-content-center.align-items-center
       .col-lg-8
-        .bg9.p-3
+        .p-3
           ImagenInfografica.color-acento-contenido
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/temas/img40.svg', alt='')
             .tarjeta.color-acento-con.p-4(x="90.7%" y="50%" numero="") 
-              h4.mb-4.text-white Según el tipo de productos
+              h4.mb-4 Según el tipo de productos
               ul.lista-ul
                 li.d-flex.mb-2
-                  i.fas.fa-circle-check.cr
-                  p.mb-0.text-white Mercado de materias primas.
+                  i.fas.fa-circle-check
+                  p.mb-0 Mercado de materias primas.
                 li.d-flex.mb-2
-                  i.fas.fa-circle-check.cr
-                  p.mb-0.text-white Mercado de productos industriales.
+                  i.fas.fa-circle-check
+                  p.mb-0 Mercado de productos industriales.
                 li.d-flex.mb-2
-                  i.fas.fa-circle-check.cr
-                  p.mb-0.text-white Mercado de productos informáticos.
+                  i.fas.fa-circle-check
+                  p.mb-0 Mercado de productos informáticos.
                 li.d-flex.mb-2
-                  i.fas.fa-circle-check.cr
-                  p.mb-0.text-white Mercado de productos manufacturados.
+                  i.fas.fa-circle-check
+                  p.mb-0 Mercado de productos manufacturados.
                 li.d-flex.mb-2
-                  i.fas.fa-circle-check.cr
-                  p.mb-0.text-white Mercado de servicios.
+                  i.fas.fa-circle-check
+                  p.mb-0 Mercado de servicios.
             .tarjeta.color-acento-con.p-4(x="24.5%" y="18.5%" numero="") 
-              h4.mb-4.text-white De acuerdo con el tipo de demanda
-              ul.lista-ul.text-white
+              h4.mb-4 De acuerdo con el tipo de demanda
+              ul.lista-ul
                 li.d-flex.mb-2
-                  i.fas.fa-circle-check.cr
+                  i.fas.fa-circle-check
                   p.mb-0 Mercado disponible.
                 li.d-flex.mb-2
-                  i.fas.fa-circle-check.cr
+                  i.fas.fa-circle-check
                   p.mb-0 Mercado real.
                 li.d-flex.mb-2
-                  i.fas.fa-circle-check.cr
+                  i.fas.fa-circle-check
                   p.mb-0 Mercado potencial.
                 li.d-flex.mb-2
-                  i.fas.fa-circle-check.cr
+                  i.fas.fa-circle-check
                   p.mb-0 Mercado meta.
             .tarjeta.color-acento-con.p-4(x="46.9%" y="59%" numero="") 
-              h4.mb-4.text-white Desde el punto de vista geográfico
-              ul.lista-ul.text-white
+              h4.mb-4 Desde el punto de vista geográfico
+              ul.lista-ul
                 li.d-flex.mb-2
-                  i.fas.fa-circle-check.cr
+                  i.fas.fa-circle-check
                   p.mb-0 Mercados locales y/o mercados regionales.
                 li.d-flex.mb-2
-                  i.fas.fa-circle-check.cr
+                  i.fas.fa-circle-check
                   p.mb-0 Mercados nacionales.
                 li.d-flex.mb-2
-                  i.fas.fa-circle-check.cr
+                  i.fas.fa-circle-check
                   p.mb-0 Mercados multinacionales y extranjeros.
                 li.d-flex.mb-2
-                  i.fas.fa-circle-check.cr
+                  i.fas.fa-circle-check
                   p.mb-0 Mercados globales.
             .tarjeta.color-acento-con.p-4(x="40.5%" y="82.5%" numero="") 
-              h4.mb-4.text-white Según el tipo de consumo
-              ul.lista-ul.text-white
+              h4.mb-4 Según el tipo de consumo
+              ul.lista-ul
                 li.d-flex.mb-2
-                  i.fas.fa-circle-check.cr
+                  i.fas.fa-circle-check
                   p.mb-0 Mercado de consumo.
                 li.d-flex.mb-2
-                  i.fas.fa-circle-check.cr
+                  i.fas.fa-circle-check
                   p.mb-0 Mercado de servicios.
                 li.d-flex.mb-2
-                  i.fas.fa-circle-check.cr
+                  i.fas.fa-circle-check
                   p.mb-0 Mercadotecnia industrial.
 
     separador
@@ -96,7 +96,7 @@
     .row.justify-content-center.align-items-end
       .col-lg-8.col-md-12.col-12.mb-4
         p.mb-4 Con base en la demanda, los mercados están construidos por personas, hogares, empresas o instituciones que demandan productos, así, las acciones de #[em marketing] de una empresa deben estar sistemáticamente dirigidas a cubrir los requerimientos particulares de estos mercados para proporcionarles una mejor satisfacción de sus necesidades específicas. Según el monto de la mercancía hay:
-        .bg6.p-4
+        .bg-color-4.p-4
           ul.lista-ul
             li.d-flex.mb-1
               i.fas.fa-circle-check
@@ -119,7 +119,7 @@
     
     .row.justify-content-center
       .col-lg-6.col-md-6.mb-4
-        .overflow-hidden.h-100.bg4.p-4
+        .overflow-hidden.h-100.bg-color-5.p-4.br-20
           img.img-a.img-t.mb-4(src='@/assets/curso/temas/img42.svg', alt='tema2')
           .row.justify-content-center.mb-3
             .col-12.mb-4
@@ -127,13 +127,13 @@
                 h4.text-center.mb-0 Mercado mayorista
           p.mb-4.text-center En este tipo de mercado es donde se venden mercaderías al por mayor y en grandes cantidades. Allí acuden, generalmente, los intermediarios y distribuidores a comprar en cantidad los productos que después han de revender a otros comerciantes, a precios mayores y caprichosamente elevados.
       .col-lg-6.col-md-6.mb-4
-        .overflow-hidden.h-100.bg4.p-4
+        .overflow-hidden.h-100.bg-color-6.p-4.br-20
           img.img-a.img-t.mb-4(src='@/assets/curso/temas/img43.svg', alt='tema2')
           .row.justify-content-center.mb-3
             .col-12.mb-4
-              .bg5.p-1 
+              .bg-color-7.p-1 
                 h4.text-center.mb-0 Mercado minorista
-          p.mb-4.text-center Llamados también de retail o menudeo, donde se venden en pequeñas cantidades directamente a los consumidores. Una nueva modalidad de este tipo de mercados se tiene en los supermercados, los que constituyen grandes cadenas u organizaciones que mueven ingentes capitales. En aquellos se estila el "autoservicio", es decir, que el mismo consumidor elige los artículos que va a comprar, eliminándose el empleado dependiente y al pequeño comerciante que solía interactuar directamente con el cliente.
+          p.mb-4.text-center.text-white Llamados también de retail o menudeo, donde se venden en pequeñas cantidades directamente a los consumidores. Una nueva modalidad de este tipo de mercados se tiene en los supermercados, los que constituyen grandes cadenas u organizaciones que mueven ingentes capitales. En aquellos se estila el "autoservicio", es decir, que el mismo consumidor elige los artículos que va a comprar, eliminándose el empleado dependiente y al pequeño comerciante que solía interactuar directamente con el cliente.
 
     separador
     #t_2_4.titulo-segundo.mb-5
@@ -144,12 +144,12 @@
         img(src='@/assets/curso/temas/img44.svg', alt='tema2')
       .col-lg-8.col-md-12.col-12.mb-0
         p.mb-4 Debido a los rasgos que caracterizan el mercado, que es en donde se genera la aplicación de las estrategias de mercadeo y las condiciones de operación de los distintos oferentes de un bien o servicio en un mercado específico, se puede hablar de dos tipos de competencia:
-        .bg6.p-4.mb-3
+        .bg-color-4.p-4.mb-3
           ul.lista-ul
             li.d-flex.mb-0
               i.fas.fa-circle-check
               p.mb-0 #[b Competencia perfecta:] es aquella en la cual los productos compiten entre sí por su calidad, pero nada más. En este mercado no se necesitan aplicar herramientas de mercadeo.
-        .bg6.p-4
+        .bg-color-4.p-4
           ul.lista-ul
             li.d-flex.mb-0
               i.fas.fa-circle-check
@@ -163,7 +163,7 @@
       .col-lg-8.col-md-12.col-12.mb-4
         p.mb-4 La demanda de un mercado la constituyen diversos tipos de compradores con diferentes necesidades, como empresa se quiere llegarles a todos, pero no siempre se puede atender a todos o la mayoría como se quisiera, y unos clientes son atendidos mejor que otros. 
         p.mb-4 Por tanto, cada empresa debe mirar a qué clientes puede atender mejor y que sean más rentables, para ello, se debe dividir el mercado y escoger a quien se le puede llegar con el portafolio de productos que ofrece la compañía; este proceso según Kotler y Armstrong (2013), implica la segmentación de mercado, la selección de mercado meta, la diferenciación y el posicionamiento. 
-        .cajon.color-acento-contenido.p-4
+        .cajon.color-secundario.p-4
           p.mb-0 Luego de segmentado este mercado, se debe evaluar cómo poder llegarle a cada uno de esos segmentos definidos por la empresa, es ahí donde entran las estrategias. El pensamiento de Michael E. Porter citado por Fano (2015), describió la estrategia competitiva, como las acciones ofensivas o defensivas de una empresa para crear una posición defendible dentro de una industria, acciones que eran la respuesta a las cinco fuerzas competitivas que el autor indicó como determinantes de la naturaleza y el grado de competencia que rodeaba a una empresa y que, como resultado, buscaba obtener un importante rendimiento sobre la inversión. También es según el autor “la creación de una posición única y valiosa en el mercado”.
       .col-lg-4.col-md-7.col-7.mb-4
         img.img-a.img-t(src='@/assets/curso/temas/img46.png', alt='tema1')
@@ -234,7 +234,7 @@
 
     p.mb-4 La empresa debe saber quiénes  son los consumidores a los que va dirigida su oferta y cada decisión hacia ellos, a ese grupo de clientes se le llama “mercado objetivo” o “mercado meta”.  Con ese mercado meta se puede tomar la decisión de qué publicidad se va a usar, qué precio y qué programa de fidelización montar. Para ello, se deben llevar a cabo los siguientes pasos: 
 
-    TabsC.color-primario
+    TabsC.color-acento-botones
       .py-3.py-md-4.bg26.px-3(titulo="Segmentación")
         .row.justify-content-center.p-4
           .col-lg-12.col-md-12
@@ -256,7 +256,7 @@
             p.mb-4 Colocar la oferta de mercado en la mente del mercado meta. Para Kotler (2013), “una posición de producto es la forma en que un producto está definido por los consumidores en atributos importantes, el lugar que ocupa en la mente de los consumidores respecto a los productos competidores”. Esto es importante porque la empresa procura recordación en los consumidores a la hora de cumplir con sus necesidades.
             p.mb-4 El mapa de posicionamiento es una herramienta que permite medir la posición que ocupa nuestra marca o empresa en la mente del consumidor. Se tiene en cuenta los atributos que utiliza la competencia para posicionarse y con ellos se elabora el mapa. Este consiste en por lo menos dos coordenadas que corresponden a los atributos, por ejemplo, precio y calidad, tamaño y velocidad, color y textura, entre otros. Una vez que se determina el mapa, se ubicarán en el mismo a los competidores y a nuestra empresa o los productos, para saber el posicionamiento que podemos generar en nuestro segmento meta.
           .col-lg-4.col-md-9
-            img.img-a.img-t(src='@/assets/curso/temas/img12.svg', alt='imagen decorativa')
+            img.img-a.img-t(src='@/assets/curso/temas/img93.png', alt='imagen decorativa')
       .py-3.py-md-4.bg26.px-3(titulo="Comunicación")
         .row.justify-content-center.p-4
           .col-lg-12.col-md-12
