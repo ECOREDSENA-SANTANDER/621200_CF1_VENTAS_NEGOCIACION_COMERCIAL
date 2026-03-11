@@ -10,20 +10,21 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-8.col-md-12.col-12.mb-4
         p.mb-4 Las bases de datos son una herramienta fundamental en el entorno informático hoy en día y tienen aplicación prácticamente en todos los campos como los negocios, organizaciones y en la vida personal. Su aplicabilidad responde a la necesidad de gestionar datos que provean información pertinente.
-        .cajon.color-acento-contenido.p-4
+        .cajon.color-secundario.p-4
           p.mb-0 Una base de datos es un conjunto de datos estructurado y almacenado de forma sistemática para facilitar su posterior utilización. Igualmente, es una colección organizada de información estructurada, o datos, típicamente almacenados electrónicamente en un sistema de computadora.
       .col-lg-4.col-md-7.col-7.mb-4
         img.img-a.img-t(src='@/assets/curso/temas/img70.svg', alt='tema1')
 
-    .subt.mb-4(data-aos="fade-right")
-      .d-flex.align-items-center.mb-1
-        img.subi(src='@/assets/curso/temas/icono.svg', alt='')
-        h3.mb-0.ms-2 Tipo de dato (tipo de campo)
+    .row.align-items-center.mb-5.titulo-icono
+        .col-auto.titulo-icono-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-text.px-0.py-2 Tipo de dato (tipo de campo)
     
     p.mb-5 Cada sistema de base de datos tiene tipos de campos que pueden ser similares o diferentes; entre los más comunes se pueden nombrar:
 
     SlyderF(columnas="col-lg-6 col-xl-4 col-md-6").mb-5
-      .tarjeta.color.p-4
+      .tarjeta.bg-color-8.p-4
         .row.justify-content-center
           .col-12
             img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/img71.svg' alt='AvatarTop')
@@ -32,7 +33,7 @@
                 .bgw.p-1 
                   h4.text-center.mb-0 Numérico
             p.text-center(data-aos="fade-right") Entre los diferentes tipos de campos numéricos se pueden encontrar enteros “sin decimales” y reales “decimales”.
-      .tarjeta.color.p-4
+      .tarjeta.bg-color-8.p-4
         .row.justify-content-center
           .col-12
             img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/img72.svg' alt='AvatarTop')
@@ -41,7 +42,7 @@
                 .bgw.p-1 
                   h4.text-center.mb-0 Booleanos
             p.text-center(data-aos="fade-right") Poseen dos estados: verdadero “Sí” y falso “No”.
-      .tarjeta.color.p-4
+      .tarjeta.bg-color-8.p-4
         .row.justify-content-center
           .col-12
             img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/img73.svg' alt='AvatarTop')
@@ -50,7 +51,7 @@
                 .bgw.p-1 
                   h4.text-center.mb-0 Memos
             p.text-center(data-aos="fade-right") Son campos alfanuméricos de longitud ilimitada. Presentan el inconveniente de no poder ser indexados.					
-      .tarjeta.color.p-4
+      .tarjeta.bg-color-8.p-4
         .row.justify-content-center
           .col-12
             img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/img74.svg' alt='AvatarTop')
@@ -59,7 +60,7 @@
                 .bgw.p-1 
                   h4.text-center.mb-0 Fechas
             p.text-center(data-aos="fade-right") Almacenan fechas facilitando su explotación. Almacenar fechas de esta forma posibilita ordenar los registros por fechas o calcular los días entre una fecha y otra.
-      .tarjeta.color.p-4
+      .tarjeta.bg-color-8.p-4
         .row.justify-content-center
           .col-12
             img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/img75.svg' alt='AvatarTop')
@@ -68,7 +69,7 @@
                 .bgw.p-1 
                   h4.text-center.mb-0 Alfanuméricos
             p.text-center(data-aos="fade-right") Contienen cifras y letras. Presentan una longitud limitada (255 caracteres).
-      .tarjeta.color.p-4
+      .tarjeta.bg-color-8.p-4
         .row.justify-content-center
           .col-12
             img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/img76.svg' alt='AvatarTop')
@@ -144,8 +145,8 @@
       
     p.mb-4 Las estructuras de bases de datos se pueden combinar de varias maneras para formar estructuras más complejas como:
 
-    TabsC.color-primario
-      .py-3.py-md-4.bg10.px-3(titulo="Primitivas")
+    TabsC.color-acento-botones
+      .py-3.py-md-4.bg26.px-3(titulo="Primitivas")
         .row.justify-content-center.p-4
           .col-lg-4
             h4.mb-4 Primitivas
@@ -156,21 +157,21 @@
                 figure
                   img(src='@/assets/curso/temas/img80.svg', alt='')
               .tarjeta.color-acento-con.p-4(x="91.3%" y="34.2%" numero="") 
-                h3.mb-4.text-white #[em Char]
-                p.text-white El tipo de datos #[em CHAR] almacena datos de carácter en un campo de longitud fija. Los datos pueden ser una serie de letras, números y otros caracteres de un solo #[em byte] o varios #[em bytes] que pueden ser utilizados por el juego de códigos del entorno local de la base de datos.
+                h3.mb-4 #[em Char]
+                p El tipo de datos #[em CHAR] almacena datos de carácter en un campo de longitud fija. Los datos pueden ser una serie de letras, números y otros caracteres de un solo #[em byte] o varios #[em bytes] que pueden ser utilizados por el juego de códigos del entorno local de la base de datos.
               .tarjeta.color-acento-con.p-4(x="91.3%" y="50%" numero="") 
-                h3.mb-4.text-white #[em Int]
-                p.text-white Los tipos de datos #[em INTEGER] y #[em SMALLINT] albergan números enteros pequeños. Ambos tipos de datos se almacenan como enteros binarios con signo. Los valores #[em INTEGER] tienen 32 #[em bits] y pueden representar números enteros desde –2 31–1 hasta 2 31–1. Los valores #[em SMALLINT] solo tienen 16 #[em bits].
+                h3.mb-4 #[em Int]
+                p Los tipos de datos #[em INTEGER] y #[em SMALLINT] albergan números enteros pequeños. Ambos tipos de datos se almacenan como enteros binarios con signo. Los valores #[em INTEGER] tienen 32 #[em bits] y pueden representar números enteros desde –2 31–1 hasta 2 31–1. Los valores #[em SMALLINT] solo tienen 16 #[em bits].
               .tarjeta.color-acento-con.p-4(x="91.3%" y="68%" numero="") 
-                h3.mb-4.text-white #[em Float]
-                p.text-white Almacena números de coma flotante, donde 'm' es el número de dígitos de la parte entera y 'd' el número de decimales. #[em DOUBLE] (REAL): almacena número de coma flotante con precisión doble. Igual que #[em FLOAT], la diferencia es el rango de valores posibles.
+                h3.mb-4 #[em Float]
+                p Almacena números de coma flotante, donde 'm' es el número de dígitos de la parte entera y 'd' el número de decimales. #[em DOUBLE] (REAL): almacena número de coma flotante con precisión doble. Igual que #[em FLOAT], la diferencia es el rango de valores posibles.
               .tarjeta.color-acento-con.p-4(x="7.9%" y="68%" numero="") 
-                h3.mb-4.text-white #[em Double]
-                p.text-white El tipo #[em double] es similar a #[em float], pero se utiliza cuando la precisión de una variable de coma flotante no es suficiente. Las variables declaradas como tipo double pueden contener aproximadamente el doble de dígitos significativos que las variables de tipo #[em float].
+                h3.mb-4 #[em Double]
+                p El tipo #[em double] es similar a #[em float], pero se utiliza cuando la precisión de una variable de coma flotante no es suficiente. Las variables declaradas como tipo double pueden contener aproximadamente el doble de dígitos significativos que las variables de tipo #[em float].
               .tarjeta.color-acento-con.p-4(x="7.9%" y="45%" numero="") 
-                h3.mb-4.text-white #[em Boolean]
-                p.text-white El tipo de dato lógico o booleano es en computación aquel que puede representar valores de lógica binaria, esto es 2 valores que, normalmente, representan falso o verdadero. Se utiliza normalmente en la programación, estadística, electrónica, matemáticas (álgebra booleana), entre otras.
-      .py-3.py-md-4.bg10.px-3(titulo="No primitivas o simples")
+                h3.mb-4 #[em Boolean]
+                p El tipo de dato lógico o booleano es en computación aquel que puede representar valores de lógica binaria, esto es 2 valores que, normalmente, representan falso o verdadero. Se utiliza normalmente en la programación, estadística, electrónica, matemáticas (álgebra booleana), entre otras.
+      .py-3.py-md-4.bg26.px-3(titulo="No primitivas o simples")
         .row.justify-content-center.p-4
           .col-lg-11
             h3.mb-3 No primitivas o simples:
@@ -181,13 +182,13 @@
                   h5 Figura 14. 
                   | Estructuras no lineales o simples
                 img(src='@/assets/curso/temas/img81.svg' alt='En la figura se describen estructuras primitivas lineales: las estructuras de datos lineales incluyen pilas, colas y listas ligadas lineales. Estructuras primitivas no lineales: las estructuras de datos no lineales incluyen grafos y arboles.')
-      .py-3.py-md-4.bg10.px-3(titulo="Estructuras de base de datos")
+      .py-3.py-md-4.bg26.px-3(titulo="Estructuras de base de datos")
         .row.justify-content-center.p-4
           .col-lg-11
             h3.mb-3 Estructuras de base de datos
             p.mb-4 La principal diferencia entre ambas es que mientras las bases de datos estáticas son de solo lectura y no permite modificar o añadir datos, las bases de datos dinámicas son mucho más flexibles y sí permiten editar, actualizar o borrar datos.
             img.img-a.img-t(src='@/assets/curso/temas/img82.svg' alt='')
-      .py-3.py-md-4.bg10.px-3(titulo="Diseño de base de datos")
+      .py-3.py-md-4.bg26.px-3(titulo="Diseño de base de datos")
         .row.justify-content-center.p-4
           .col-lg-11
             h3.mb-3 Diseño de base de datos
