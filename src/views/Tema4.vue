@@ -9,7 +9,7 @@
     
     .row.justify-content-center.align-items-center
       .col-lg-10
-        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/img64.png')})`}"
           )
@@ -67,14 +67,14 @@
     .row.justify-content-center.align-items-end.mb-3
       .col-lg-8.col-md-12.col-12.mb-4
         p.mb-4 En este nivel se tiene claro la clase de investigación o proyecto que se desea realizar; por tanto, es el momento de trazar un plan que lleve a obtener la información para cumplir con el proyecto y escoger el método a utilizar que resuelva el problema planteado. Se debe responder a la pregunta ¿Con qué…? Mientras que en la observación se utiliza un guion de observación, notas de campo, listas de chequeo, registros, entre otros, en la entrevista se utiliza el cuestionario o instrumento de preguntas; para la encuesta se utiliza el cuestionario o instrumento o escalas de actitud. 
-        .cajon.color-acento-contenido.p-4
+        .cajon.color-secundario.p-4
           p.mb-4.my-4 Se determinan los métodos y se escoge el más conveniente a utilizar. Kendall y Kendall (2011, p. 115) aportan dos métodos para la recolección de datos: el interactivo y el intrusivo.
       .col-lg-4.col-md-7.col-7.mb-4
         img.img-a.img-t(src='@/assets/curso/temas/img67.png', alt='tema1')
 
     .row.justify-content-center
       .col-lg-6.col-md-6.mb-4
-        .overflow-hidden.h-100.bg4.p-4
+        .overflow-hidden.h-100.bg-color-5.p-4.br-20
           img.img-a.img-t.mb-4(src='@/assets/curso/temas/img68.svg', alt='tema2')
           .row.justify-content-center.mb-3
             .col-12.mb-4
@@ -82,13 +82,13 @@
                 h4.text-center.mb-0 Método interactivo
           p.mb-4.text-center Consiste en tener contacto con alguien, este método se propone utilizar herramientas básicas como: entrevista, cuestionarios y talleres de trabajo de JAD (diseño conjunto de aplicaciones), este último demanda cierta especialización. 
       .col-lg-6.col-md-6.mb-4
-        .overflow-hidden.h-100.bg4.p-4
+        .overflow-hidden.h-100.bg-color-6.p-4.br-20
           img.img-a.img-t.mb-4(src='@/assets/curso/temas/img69.svg', alt='tema2')
           .row.justify-content-center.mb-3
             .col-12.mb-4
-              .bg5.p-1 
+              .bg-color-7.p-1 
                 h4.text-center.mb-0 Método intrusivo
-          p.mb-4.text-center Permiten a los analistas realizar una descripción más clara y completa de los requerimientos para este método, plantea la observación, investigación y el muestreo; es muy utilizado en la investigación aplicada. 
+          p.mb-4.text-center.text-white Permiten a los analistas realizar una descripción más clara y completa de los requerimientos para este método, plantea la observación, investigación y el muestreo; es muy utilizado en la investigación aplicada. 
 
 
 
